@@ -1,58 +1,59 @@
 # Mathematics for Computer Science & AI Notebook
 
-A rigorous, implementation-oriented mathematics notebook for computer science, artificial intelligence, machine learning, software engineering, cryptography, security, and distributed systems.
+## 📖 About
 
-## What this notebook is for
+A long-term mathematics notebook for building the mathematical foundations required for computer science, artificial intelligence, machine learning, security, cryptography, distributed systems, and reliable software engineering.
 
-A long-term mathematical foundation for graduate-level CS/AI study and research. The goal is to understand the mathematics behind algorithms and models—not merely memorize formulas.
+The notebook is designed as a **study reference**, not a collection of formula lists: each topic should connect definitions, derivations, proofs, geometric intuition, numerical behavior, implementation, and real CS/AI applications.
 
-## Core mathematics
+## ✨ Scope
 
-- **Linear algebra** — vectors, vector spaces, matrices, tensors, rank, nullspaces, inner products, norms, projections, least squares, eigenvalues/eigenvectors, PCA, SVD, and matrix decompositions.
-- **Calculus** — limits, derivatives, partial derivatives, gradients, Jacobians, Hessians, Taylor approximations, the chain rule, backpropagation, curvature, and sensitivity.
-- **Probability & statistics** — random variables, distributions, expectation, variance, covariance, conditional probability, Bayes' theorem, likelihood, MLE/MAP, hypothesis testing, confidence intervals, concentration, and statistical inference.
-- **Discrete mathematics** — logic, sets, functions, relations, induction, graph theory, trees, combinatorics, recurrence relations, counting arguments, and proof techniques.
-- **Optimization** — gradient descent, SGD, momentum, adaptive methods, convexity, smoothness, regularization, constrained optimization, Lagrange multipliers, KKT conditions, duality, and numerical stability.
-- **Number theory & algebra** — modular arithmetic, primes, groups, rings, finite fields, and the mathematics used by modern cryptography.
-- **Information theory** — entropy, cross-entropy, KL divergence, mutual information, coding, and information-theoretic views of learning and privacy.
-- **Complexity theory** — asymptotic growth, reductions, P/NP, randomized complexity, hardness, and computational trade-offs.
-- **Numerical mathematics** — floating-point error, conditioning, stability, iterative methods, approximation, and reliable scientific computation.
+- Linear algebra: vector spaces, matrices, tensors, inner products, projections, eigenstructure, SVD, decompositions
+- Calculus: limits, derivatives, gradients, Jacobians, Hessians, chain rule, backpropagation, sensitivity
+- Probability & statistics: distributions, expectation, variance, covariance, Bayesian inference, estimation, testing, confidence intervals
+- Discrete mathematics: logic, sets, relations, graphs, trees, combinatorics, recurrences, proofs
+- Optimization: gradient methods, convexity, regularization, constraints, KKT conditions, duality
+- Number theory & algebra for cryptography
+- Information theory and privacy
+- Complexity and algorithmic analysis
+- Numerical mathematics and scientific computing
 
-## Mathematics of algorithms and data structures
+## 🧠 Mathematics of Algorithms & Data Structures
 
-Data structures and algorithms are treated through their mathematical foundations:
+Algorithms are studied through invariants, induction, recurrence relations, asymptotic analysis, amortized analysis, probability, graph theory, combinatorics, decision-tree lower bounds, dynamic programming, and approximation arguments.
 
-- invariants and correctness proofs;
-- induction and loop invariants;
-- recurrence relations and divide-and-conquer analysis;
-- asymptotic notation (`O`, `Ω`, `Θ`);
-- amortized analysis and potential functions;
-- graph-theoretic representations and shortest paths;
-- combinatorial counting and randomized algorithms;
-- probability in hashing and randomized data structures;
-- dynamic programming as optimization over overlapping subproblems;
-- decision trees, lower bounds, and information arguments;
-- approximation and greedy-choice proofs.
+## 🤖 AI / ML Connections
 
-## AI / ML mathematics
+The notebook develops the mathematics behind regression, neural networks, embeddings, attention, probabilistic models, optimization, uncertainty, adversarial robustness, differential privacy, and calibration.
 
-Connections include linear and logistic regression, neural networks and backpropagation, embeddings and similarity search, attention, PCA, probabilistic models, Bayesian inference, loss functions, regularization, generalization, adversarial robustness, differential privacy, uncertainty estimation, and calibration.
+## 🏗 Notebook Organization
 
-## Security & distributed-systems mathematics
+```text
+.
+├── MATHEMATICS_FOR_AI_AND_CS.md   # Deep reference guide
+├── linear-algebra/                # Topic notes / experiments
+├── calculus/                      # Topic notes / experiments
+├── probability-statistics/        # Topic notes / experiments
+├── discrete-mathematics/          # Topic notes / proofs
+├── optimization/                  # Optimization notes
+├── algorithms/                    # Mathematical algorithm analysis
+└── README.md
+```
 
-Applications include finite-field cryptography, attack/collision probability, entropy and password security, zero-knowledge concepts, secure computation, graph models of distributed systems, consensus and fault models, reliability, and randomized protocols.
+Directories are added as the notebook grows; the deep guide is the current central reference.
 
-## Deep study guide
+## 🚀 Getting Started
 
-See [`MATHEMATICS_FOR_AI_AND_CS.md`](MATHEMATICS_FOR_AI_AND_CS.md) for the expanded treatment with definitions, derivations, intuition, worked mathematics, AI connections, algorithmic foundations, and exercises.
+```bash
+git clone https://github.com/matinwgg/Math-for-CS-Notebook.git
+cd Math-for-CS-Notebook
+```
 
-## Implementation track
+Read the material in prerequisite order rather than jumping directly to advanced AI topics.
 
-The repository deliberately mixes mathematical exposition with executable implementations in **Python and Rust**. Topics should contain definitions, worked derivations, computational experiments, numerical checks, and tests where practical.
+## 📋 Recommended Progression
 
-## Recommended progression
-
-1. Algebra and mathematical notation
+1. Mathematical notation and algebra
 2. Discrete mathematics and proof
 3. Linear algebra
 4. Single- and multivariable calculus
@@ -63,6 +64,33 @@ The repository deliberately mixes mathematical exposition with executable implem
 9. Number theory and cryptographic mathematics
 10. Advanced AI/ML mathematics and research applications
 
-## Goal
+## 🧪 Exercises & Verification
 
-Build a reusable mathematical foundation for graduate-level computer science and AI research rather than a collection of disconnected notes.
+A strong study workflow is: derive by hand → prove or justify → implement a small numerical experiment → test edge cases → compare with theory.
+
+## 🔬 Research Applications
+
+The notebook is particularly aligned with secure systems, applied cryptography, machine-learning security, distributed systems, FinTech, statistical learning, privacy, and reliable software engineering.
+
+## 🚧 Future Work
+
+- Full chapter-length derivations and proofs
+- More numerical experiments
+- Problem sets with complete solutions
+- Graduate-level probability and optimization
+- Information theory and coding theory
+- Statistical learning theory
+- Cryptographic number theory
+- Formal methods and probabilistic verification
+
+## 🤝 Contributing
+
+Add rigorous definitions, derivations, proofs, examples, exercises, references, and executable verification where appropriate. Avoid unexplained formula dumps.
+
+## 📄 License
+
+See repository license information.
+
+## 👨‍💻 Author
+
+**Matin Odoom**
